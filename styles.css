@@ -1,0 +1,41 @@
+body {
+  background: url(https://34travel.me/media/upload/images/2016/december/NYC_guide/IMG_5094.jpg);
+} /* Фоновая картинка*/
+
+.bg {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cinemaaustralia.jpg/220px-Cinemaaustralia.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.pad-top {
+  padding-top: 50%;
+}
+
+/* Задаём обтекание*/
+.leftimg {
+  float: left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+#scr {
+  width: 150px;
+  height: 250px;
+  background-color: e6e6fa;
+  background-size: cover;
+  border: 2px solid black;
+  background-position: center;
+}
+button {
+  position: relative;
+  top: 150px;
+  width: 0px;
+  height: 0px;
+  font: 12pt arial, tahoma, sans-serif;
+  text-align: center;
+}
+.left {
+  left: 5px;
+}
+.right {
+  right: 5px;
+}

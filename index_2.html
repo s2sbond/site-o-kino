@@ -1,16 +1,14 @@
 <!DOCTYPE html><html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <title>Дежавю</title>
-        <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
+    <title>Книга Илая</title>
         <style>
              body { background: url(https://34travel.me/media/upload/images/2016/december/NYC_guide/IMG_5094.jpg); } /* Фоновая картинка*/
 
              .bg{background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cinemaaustralia.jpg/220px-Cinemaaustralia.jpg); background-position: center; background-size: cover;}
 
-             .pad-top{ padding-top: 50%; }
+             .pad-top{ padding-top: 35%; }
 
-             /* Задаём обтекание*/
              .leftimg {
                        float:left; /* Выравнивание по левому краю */
                        margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
@@ -26,22 +24,24 @@
               }
               button {
                      position: relative;
-                     top: 150px;
-                     width: 0px;
-                     height: 0px;
+                     width: 30px;
+                     height: 30px;
+                     border-radius: 20px;
+                     background-color: rgba(150, 150, 250, 0.7);
+                     top: 250px;
                      font: 12pt arial,tahoma,sans-serif;
                      text-align: center;
               }
              .left {
-                   left:5px;
+                   left:10px;
               }
              .right {
-                     right:5px;
+                     right:-80px;
               }       
         </style>
         <script>
          var slider = {
-                      slides:['images/dejavu_05.jpg','images/dejavu_07.jpg','images/dejavu_02.jpg','images/dejavu_03.jpg','images/dejavu_04.jpg'],
+                      slides:['images/eli_01.jpg','images/eli_02.jpg','images/eli_06.jpg','images/eli_04.jpg','images/eli_05.jpg'],
                       frame:0, // текущий кадр для отбражения - индекс картинки из массива
                       set: function(image) { // установка нужного фона слайдеру
                                             document.getElementById("scr").style.backgroundImage = "url("+image+")";
@@ -64,19 +64,21 @@
                                       slider.init();
                                       setInterval(function() { // ставим пятисекундный интервал для перелистывания картинок
                                                               slider.right();
-                                                              },3000);
+                                                              },5000);
                                       };
 </script>
+
   </head>
     <body bgcolor="6db1f9"><table border="1" bordercolor="#fff" width="800" align="center"> 
      <tr> 
        <td bgcolor="e6e6fa"> 
 
 
-        <table border="1" bordercolor="#fff" width="790" height="200" cellpadding="10"> 
+        <table border="1" bordercolor="#fff" width="790" height="200"
+        cellpadding="10"> 
           <tr> 
             <th background="https://marketingland.com/wp-content/ml-loads/2015/08/movie-film-video-production-ss-1920.jpg"> 
-              <h1><font color="#fff" face="Yeseva One">Лучшие фильмы с Дензелом Вашингтоном</font> 
+              <h1><font color="#fff" face="Goudy stout">Лучшие фильмы с Дензелом Вашингтоном</font> 
                 <h3 align="center"> 
                   <font color="#fff">
                     <font size>«Они стоят того, что бы их посмотреть»</font>
@@ -90,22 +92,23 @@
     <table border="1" bordercolor="cc215a" width="790" cellpadding="10"> 
       <tr> 
         <td rowspan="4" width="550" bgcolor="e6e6fa"> 
-          <div align="left" class="leftimg"> <!-- включаем обтекaние картинки-->
-                   <!--button class="left" onclick="slider.left();"><</button-->
+          <div align="left" class="leftimg"><!-- включаем обтекaние картинки-->
+                     <button class="left" onclick="slider.left();"><</button>
+                     <button class="right" onclick="slider.right();">></button> 
                    <div id="scr"></div><!-- включаем слайдер-->
-                   <!--button class="right" onclick="slider.right();">></button--> 
-                 
+                   
           </div> 
-          <h3>Дежавю (Deja Vu)</h3> 
+          <h3>Книга Илая (The Book of Eli)</h3> 
 
             <p style="text-indent:20px">
             <span style = "font-size: 30px;">
             <font face="Monotype Corsiva"> <font color="cc215a">
-            <strong>Д</strong></font></font></span> <strong>ежавю (фр. Déjà Vu)</strong> — американский художественный фильм 2006 года, фантастическая драма Тони Скотта. Главные роли исполнили Дензел Вашингтон, Джеймс Кэвизел, Пола Пэттон и Вэл Килмер.</p>
+            <strong>К</strong></font></font></span> <strong>нига Илая</strong> — постапокалиптический драматический фильм братьев Хьюз. Главные роли исполняют Дензел Вашингтон, Мила Кунис и Гэри Олдмен.</p>
 
-          <p>Агент Бюро по контролю за алкоголем, табаком и огнестрельным оружием Даг Карлин расследует взрыв пассажирского парома в Новом Орлеане, повлекший за собой гибель более пятисот людей. В ходе расследования его внимание привлекает одна из жертв, девушка по имени Клэр – возможно, ее убили непосредственно перед взрывом и эта смерть связана с подготовкой теракта. Пытаясь понять, что Клэр делала накануне, Даг никак не может избавиться от ощущения, что уже встречался с этой девушкой, разговаривал с ней, и даже был у нее в гостях…</p>
+            <p>После мировой катастрофы Америка превратилась в выжженную пустыню. По бескрайним дорогам, кишащим бандами, враждующими между собой за воду и еду, странствует мудрый Илай. Однажды он прибывает в мрачные края, где когда-то была цветущая Калифорния, а теперь это сущий ад, где бесчинствует тиран Карнеги...
+            </p>
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/icl7vsDT_ZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/z_n8A0XYZVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td> 
        
         <td bgcolor="e6e6fa" align="left" height="120"> 
@@ -118,13 +121,12 @@
             </ul>
           </td> 
       </tr> 
-      <tr > 
-        <td bgcolor="e6e6fa" align="center"  valign="top" class="bg"> 
-           <div class="pad-top">
-            <a href="http://gidonline.io/film/dezhavyu/" target="blank">
-              <h3> <font color="white">Перейти к просмотру в кинотеатре</font></h3> 
-            </a>
-          </div>
+      <tr> 
+        <td bgcolor="e6e6fa" align="center" valign="top" class="bg"> 
+          
+          <a href="http://gidonline.io/film/1-kniga-ilaya/" target="blank">
+            <h3 class="pad-top"><font color="white">Перейти к просмотру в кинотеатре</font></h3> 
+          </a>
         </td> 
       </td> 
     </tr> 
